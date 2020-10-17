@@ -51,7 +51,7 @@ output=(what),(twitter_url)
 import requests
  
 def LineNotify(message):
-    line_notify_token = "xabwCkFTbXaNolF50AS30kMUb3tImS46wUIhP57Wetr"
+    line_notify_token = "*********************"
     line_notify_api = "https://notify-api.line.me/api/notify"
  
     payload = {"message":message}
